@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>虎 - Official Website</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="team" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/vegas.min.css">
+		<script src="https://kit.fontawesome.com/3085d2b7d6.js" crossorigin="anonymous"></script>
+		<!-- MAIN CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/snow.css">
+	</head>
+	<body>
+		<!-- MUSIC -->
+		<audio id="music">
+			<source type="audio/mpeg">
+		</audio>
+		<!-- SNOW CONTAINER -->
+		<div id="snow-container">
+			<div class="snow large"></div>
+			<div class="snow large delayed"></div>
+			<div class="snow medium"></div>
+			<div class="snow medium delayed"></div>
+			<div class="snow small"></div>
+			<div class="snow small delayed"></div>
+		</div>
+		<!-- PRE LOADER -->
+		<section class="preloader">
+			<div class="spinner">
+				<span class="spinner-rotate"></span>  
+			</div>
+		</section>
+		<!-- HOME -->
+		<section id="home">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<!-- NOW PLAYING -->
+						<div class="home-info">
+							<h1 style="margin-bottom: 0;">
+								<b>虎</b>
+							</h1>
+							<h5 style="margin-top: 0; color: #fff;">
+								Tor
+							</h5>
+							<ul class="social">
+								<li class="twitch">
+									<a target="_blank" href="https://twitch.tv/NotSoAnonymousTV">
+										<span>
+											<i class="fa fa-twitch"></i>
+										</span>
+										<h3>Twitch</h3>
+									</a>
+								</li>
+								<li class="instagram">
+									<a target="_blank" href="https://instagram.com/huntress.jpg">
+										<span>
+											<i class="fa-brands fa-instagram"></i>
+										</span>
+										<h3>Instagram</h3>
+									</a>
+								</li>
+								<li class="discord">
+									<a href="discord://-/users/223151432314912778">
+										<span>
+											<i class="fa-brands fa-discord"></i>
+										</span>
+										<h3>Discord</h3>
+									</a>
+								</li>
+								<li class="Steam">
+									<a target="_blank" href="https://steamcommunity.com/profiles/76561197961284626">
+										<span>
+											<i class="fa-brands fa-steam"></i>
+										</span>
+										<h3>Steam</h3>
+									</a>
+	
+								</li>
+								<li class="github">
+									<a target="_blank" href="https://github.com/0xCerberus">
+										<span>
+											<i class="fa fa-github"></i>
+										</span>
+										<h3>GitHub</h3>
+									</a>
+
+									</a>
+								</li>
+								<li class="Ko-Fi">
+									<a target="_blank" href="https://ko-fi.com/null0">
+										<span>
+											<i class="fa-solid fa-mug-hot"></i>
+										</span>
+										<h3>Ko-Fi</h3>
+									</a>
+
+									</a>
+								</li>
+								<li class="Sellix">
+									<a target="_blank" href="https://torstoreproject.netlify.app/">
+										<span>
+											<i class="fa-brands fa-sellcast"></i>
+										</span>
+										<h3>Sellix</h3>
+									</a>
+
+									</a>
+								</li>
+								<li class="Bio Page">
+									<a target="_blank" href="https://projectupsilon.netlify.app">
+										<span>
+											<i class="fa-solid fa-user-secret"></i>
+										</span>
+										<h3>Bio Page</h3>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div id="track-selector" class="text-focus-in" style="display: none;">
+							<ul class="social">
+								<li>
+									<a onclick="playPrevSong()">
+										<span>
+											<i class="fa-solid fa-backward"></i>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a onclick="playPauseSong()">
+										<span>
+											<i class="fa-solid fa-play"></i>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a onclick="playNextSong()">
+										<span>
+											<i class="fa-solid fa-forward"></i>
+										</span>
+									</a>
+								</li>
+							</ul>
+							<div id="now-playing" class="text-focus-in"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- SCRIPTS -->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/vegas.min.js"></script>
+		<script src="js/tilt.jquery.min.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+</html>
